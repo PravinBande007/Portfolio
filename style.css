@@ -1,0 +1,192 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .navigation_bar {
+    /* background-color: aquamarine !important; */
+    background-image: linear-gradient(to right, #94b9f4, #68eaf8, #3da19c);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+  }
+  .nav_menu {
+    font-size: 20px;
+    font-family: Arial Black;
+    color: white;
+    transition-duration: 1s;
+  }
+  .nav_menu:hover {
+    color: black;
+    /* text-decoration: underline solid black; */
+    /* border-botto : 3px solid black; */
+  }
+  .my_logo {
+    font-family: Arial Black;
+    font-variant: small-caps;
+    color: royalblue;
+  }
+  .sect {
+      height: 500px;
+      width: 100%;
+    /* border: 2px solid black; */
+    /* display: flex;
+      justify-content: center;
+      align-items: center; */
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  .home_sect {
+    margin-top: 80px;
+    padding-top: 50px;
+    height: 400px;
+    border: none;
+    padding-left: 50px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzzoePLBSvGa2pYF1vb7Fgkr254xsRkEjq8g&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: 95% 60%;
+    background-size: 35%;
+  }
+  .home_sect span {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-variant: small-caps;
+  }
+  .myname {
+    color: rgb(22, 115, 121);
+    font-size: 40px;
+    font-family: Arial Black;
+  }
+  #designation {
+    color: red;
+  }
+  .rsmbtn {
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    height: 50px;
+    width: 130px;
+    font-size: 20px;
+    background-color: rgb(65, 148, 225);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition-duration: 1s;
+  }
+  .rsmbtn:hover {
+    background-color: white;
+    color: royalblue;
+    border: 2px solid royalblue;
+    box-shadow: 0px 0px 10px royalblue;
+    transform: scale(1.1);
+  }
+  .about_sect {
+    background-color: whitesmoke;
+    border: none;
+  }
+  .my_image {
+    height: 300px;
+    transition-duration: 1s;
+    border-radius: 40px;
+  }
+  .my_image:hover {
+    transform: scale(1.3);
+    border-radius: 125px;
+    box-shadow: 0px 0px 10px black;
+  }
+  .section_heading {
+    color: rgb(22, 115, 121);
+    font-family: Elephant;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+  }
+  .cobj {
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 40px;
+    text-indent: 30%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: grey;
+    padding-left: 40px;
+  }
+  .skills_sect{
+    height: 600px;
+  }
+  .skill_heading{
+    color: orangered;
+    font-family: Arial Black;
+    font-size: 30px;
+    font-variant: small-caps;
+  }
+  .skill_set p{
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 30px 20px;
+  }
+  .skill_set{
+    /* background-color: #84aee3; */
+    height: 90%;
+    width: 90%;
+    border-radius: 50px;
+    border: 2px solid grey;
+    transition-duration: 1s;
+  }
+  .skill_set:hover{
+    box-shadow: 0px 0px 10px grey;
+    transform: scale(1.3);
+    background-color: aliceblue;
+  }
+  .project_heading{
+    color: orangered;
+    font-family: Arial black;
+    font-size: 30px;
+    font-variant: small-caps;
+  }
+  .projects_sect{
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
+    margin-right: 20px;
+    border-radius: 60px;
+    border: 2px solid grey;
+    transition-duration: 1s;
+
+  }
+  .projects_sect:hover{
+    box-shadow: 0px 0px 10px grey;
+    transform: scale(1.1);
+    background-color: aliceblue;
+  }
+  .contact_heading{
+    color: orangered;
+    font-family: Arial Black;
+    font-size: 30px;
+    font-variant: small-caps;
+    
+  }
+  .detail{
+    font-size: 25px
+  }
+  .contact_sect{
+    height: 90%;
+    width:100%;
+    border-radius: 50px;
+    border: 2px solid grey;
+    transition-duration: 1s;
+
+  }
+  .contact_sect:hover{
+    box-shadow: 0px 0px 10px grey;
+    transform: scale(1.1);
+    background-color: aliceblue;
+
+  }
+ 
