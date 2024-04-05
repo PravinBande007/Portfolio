@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap link below -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- external css link below -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- aos css link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="main_div">
+      <div class="navigation_bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"
+            ><span class="my_logo">PRAVIN</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home"
+                  ><span class="nav_menu">Home</span>
+                  <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"
+                  ><span class="nav_menu">About</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills"
+                  ><span class="nav_menu">Skills</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects"
+                  ><span class="nav_menu">Projects</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"
+                  ><span class="nav_menu">Contact</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- navigation_bar code ends here -->
+      <div class="sect home_sect" id="home">
+        <div class="home_data">
+          <span>Hello</span><br />
+          <span>My name is</span><br />
+          <div class="myname" data-aos="flip-up">PRAVIN BANDE</div>
+          <span>I am a <span id="designation">Test Engineer</span></span
+          ><br />
+          <button class="rsmbtn">
+            <a
+              href="Pravin Bande_Testing_Resume_Updated.pdf"
+              download
+              >RESUME</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="sect about_sect" id="about" style="padding-top: 50px">
+        <div class="about-data" align="center">
+          <table height="400px" width="90%">
+            <tr>
+              <td valign="center" align="center" width="40%">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  class="my_image"
+                  alt="my_image"
+                />
+              </td>
+              <td valign="top" align="center">
+                <h1 class="section_heading">About</h1>
+                <p class="cobj">
+                  <strong>The role of Test Engineers is to thoroughly check materials,
+                  procedures and mechanical or electrical systems to ensure that
+                  customers get high-quality, functional products. They run
+                  tests on various components and features in order to identify
+                  and fix technical issues.</strong>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect skills_sect" id="skills" align="center">
+        <h1 class="section_heading">Skills</h1>
+        <div class="my_skills">
+          <table width="95%" height="500px">
+            <tr align="center" valign="top" height="200px">
+              <td width="50%">
+                <div class="skill_set" data-aos="slide-right">
+                  <h2 class="skill_heading">Languages</h2>
+                  <p>Core JAVA , JavaScript, HTML, XML , SQL , CSS, JSON,</p>
+                </div>
+              </td>
+              <td width="50%">
+                <div class="skill_set" data-aos="slide-left">
+                  <h2 class="skill_heading">Api's & Frameworks</h2>
+                  <p>
+                    Collections, Stream , JDBC, Servlets, ReactJS, Rest, Soap
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr align="center" valign="top" height="200px">
+              <td width="50%">
+                <div class="skill_set" data-aos="slide-right">
+                  <h2 class="skill_heading">Tools</h2>
+                  <p>
+                    Eclipse, VS Code,Intellij idea,Sublime,
+                    Postman,Selenium,FireFlink, Oracle SQL , MySQL, MongoDB,
+                    Git, Github, Maven
+                  </p>
+                </div>
+              </td>
+              <td width="50%">
+                <div class="skill_set" data-aos="slide-left">
+                  <h2 class="skill_heading">Operating System</h2>
+                  <p>Windows, iOs, Linux, Ubuntu, Solaris, Andriod</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div><br><br><br>
+      <div class="sect projects_sect" id="projects" align="center" data-aos="slide-right">
+        <h1 class="section_heading">Project</h1>
+        <br />
+        <div>
+          <h2 class="project_heading" align="center">Airport management system</h2>
+          <p class="detail" align="center">
+            <b>In this project i worked as a indivisually its my college project<br>
+            its on c#.net framework with all wireframe and ERD works.<br>The system
+            needs to connect with Passenger,Admin and Staff pannel.</b>
+          </p><br><br>  
+          <h2 class="project_heading" align="center">
+            Bag store management system
+          </h2>
+          <p class="detail" align="center">
+            <b>In bag store management system project the backed i build with<br> the
+            framework in PHP Bootstrap framework its my college project.<br>I worked
+            as individual person and use of WEB TECHNOLOGY framework.</b>
+          </p>
+        </div>
+      </div><br><br><br><br>
+      <div class="sect contact_sect" id="contact" align="center" data-aos="slide-left">
+        <h1 class="section_heading">Contact</h1>
+        <br />
+        <h3><span class="contact_heading">Name:</span><i><b>PRAVIN DILIP BANDE</b></i></h3>
+        <h3>
+          <span class="contact_heading">email:</span><i><b>pravinbande007@gmail.com</b></i>
+        </h3>
+        <h3><span class="contact_heading">Phone No:</span><i><b>8600187007</b></i></h3>
+        <h3>
+          <span class="contact_heading">Address:</span><i><b>SARATHI SINCLAIR HOMES,WARJE,PUNE 411058.</b></i>
+        </h3>
+      </div>
+    </div>
+    <!-- aos script tag -->
+    <div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 1000,
+        });
+      </script>
+      
+    </div>
+  </body>
+</html>
